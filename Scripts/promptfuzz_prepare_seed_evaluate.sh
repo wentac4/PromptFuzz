@@ -2,9 +2,9 @@
 
 PYTHON_SCRIPT="./Experiment/run.py"
 PHASE="preparation"
-MODE="hijacking"
+MODE="privacy"
 NO_MUTATE="False"
-ALL_DEFENSES="True"
+ALL_DEFENSES="False"
 
 # Check if NO_MUTATE and ALL_DEFENSES should be set to true
 NO_MUTATE_FLAG=""
