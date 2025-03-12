@@ -28,7 +28,7 @@ def run_fuzzer(args):
 
     if args.mode == 'hijacking':
         predictor = AccessGrantedPredictor()
-    elif (args.mode == 'extraction') or (args.mode == 'privacy'):
+    elif (args.mode == 'extraction') or (args.mode == 'privacyextraction') or (args.mode == 'privacyinference'):
         predictor = MatchPredictor()
     else:
         raise ValueError("Invalid mode")

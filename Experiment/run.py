@@ -12,7 +12,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Fuzzing parameters')
     parser.add_argument('--index', type=int, default=0, help='The index of the target prompt')
     parser.add_argument('--phase', choices=['preparation', 'focus', 'init'], default='init', help='The phase of the fuzzing process')
-    parser.add_argument('--mode', choices=['hijacking', 'extraction', 'privacy'], default='privacy', help='The mode of the fuzzing process')
+    parser.add_argument('--mode', choices=['hijacking', 'extraction', 'privacyextraction', 'privacyinference'], default='privacyextraction', help='The mode of the fuzzing process')
     parser.add_argument('--openai_key', type=str, default=None, help='OpenAI API Key')
     parser.add_argument('--model_path', type=str, default='gpt-3.5-turbo-0125', help='target model path')
     parser.add_argument('--max_query', type=int, default=1000,

@@ -2,9 +2,9 @@
 
 PYTHON_SCRIPT="./Experiment/run.py"
 PHASE="preparation"
-MODE="privacy"
+MODE="privacyextraction"
 NO_MUTATE="False"
-ALL_DEFENSES="False"
+ALL_DEFENSES="True"
 
 # Check if NO_MUTATE and ALL_DEFENSES should be set to true
 NO_MUTATE_FLAG=""
