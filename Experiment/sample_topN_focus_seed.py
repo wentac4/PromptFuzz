@@ -20,7 +20,7 @@ def main(args):
     index2sample_id = get_index2sample_id(args.init_file)
 
     # Get the attack success rate for each parent
-    for parent in range(0, 80):
+    for parent in range(0, len(index2sample_id)):
         df_temp = df_results[df_results['parent'] == parent]
         sum_attack = 0
         for _, row in df_temp.iterrows():

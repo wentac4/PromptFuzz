@@ -2,10 +2,10 @@
 
 PYTHON_SCRIPT="./Experiment/run.py"
 PHASE="focus"
-MODE="hijacking"
+MODE="privacyextraction"
 NO_MUTATE="False"
 ALL_DEFENSES="True"
-RETRIEVAL_METHOD="cluster"
+RETRIEVAL_METHOD="cosine_similarity"
 CLUSTER_NUM=5
 THRESHOLD_COEFFICIENT=0.5
 FEW_SHOT="True"

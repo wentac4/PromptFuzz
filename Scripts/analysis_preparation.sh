@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MODE="hijacking" # extraction
+MODE="privacyextraction" # extraction
 GET_ATTACK_RANKING_SCRIPT="./Experiment/sample_topN_focus_seed.py"
 SAMPLE_EXAMPLE_BY_MUTATOR_SCRIPT="./Experiment/sample_example_by_mutator.py"
 GET_MUTATOR_WEIGHTS_SCRIPT="./Experiment/get_mutator_weights.py"
